@@ -11,7 +11,7 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     //make api call here , if success redirect to dashboard or show error!
-    navigate(`/dashboard/:${userName}`); //using url params to send username to send username .
+    navigate(`/dashboard/${userName}`); //using url params to send username to send username .
   };
   return (
     <>
