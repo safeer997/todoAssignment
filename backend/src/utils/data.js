@@ -37,19 +37,19 @@ const data = [
   },
   {
     id: '1719831110007',
-    user: 'ayesha',
+    user: 'gill',
     title: 'Project Ideas',
     content: 'Todo app, weather app, recipe app.',
   },
   {
     id: '1719831110008',
-    user: 'ayesha',
+    user: 'gill',
     title: 'Travel Checklist',
     content: 'Passport, tickets, charger, toiletries.',
   },
   {
     id: '1719831110009',
-    user: 'ayesha',
+    user: 'gill',
     title: 'Learning Goals',
     content: 'Understand closures and promises in JS.',
   },
