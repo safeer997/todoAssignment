@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
 
 function Dashboard() {
   const [todo, setTodo] = useState([]);
@@ -7,8 +8,10 @@ function Dashboard() {
   const [isEditing, setIsEditing] = useState(false);
   const [editingTodoId, setEditingTodoId] = useState(null);
 
+  const { username } = useParams();
+
   //taking username as dummy as we have not developed backend yet ;
-  const username = 'safeer';
+  // const username = 'safeer';
 
   const handleAdd = () => {
     if (isEditing && editingTodoId) {
