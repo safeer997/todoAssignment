@@ -76,7 +76,7 @@ export const editTodo = (req, res) => {
   res.status(200).json({
     success: true,
     message: 'todo updated successfully',
-    data: data[noteIndex],
+    data: data[editTodoIndex],
   });
 };
 
